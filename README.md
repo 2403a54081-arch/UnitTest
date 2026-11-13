@@ -1,18 +1,21 @@
-<<<<<<< HEAD
-# UnitTest
+# UnitTest - Python Pytest Automation
 
-A simple calculator example tested with pytest.
+## Project Description
+This project demonstrates Python unit testing using Pytest and GitHub Actions.
 
-## Run the tests
+## Files
+- calculator.py - Contains calculator functions.
+- test_calculator.py - Contains Pytest test cases.
 
-From this directory, install pytest and run the test suite:
+## Testing
+Run the following command:
 
-```powershell
-python -m pip install pytest
+```bash
 python -m pytest -v
 ```
 
-The test suite covers addition, subtraction, multiplication, and division.
-=======
-# UnitTest
->>>>>>> 1e7f4a0040543707b4dfe3ab3183c9c8db4b2898
+## GitHub Actions
+GitHub Actions automatically executes the Pytest test cases whenever code is pushed to the main branch.
+
+## Expected Result
+All four test cases should pass successfully.
